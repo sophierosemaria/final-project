@@ -1,0 +1,46 @@
+
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: url(https://wallpapercave.com/dwp2x/4oh3plg.jpg) no-repeat;
+  background-size:cover;
+  background-position: 50%;
+  background-attachment: fixed;
+  width: 100%;
+  font-family: 'Orbitron', sans-serif !important;
+  font-size: 1.3rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.character-image {
+  height: 20rem;
+}
+
+@media (min-width: 640px) {
+  .body-width {
+    width: 80%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
